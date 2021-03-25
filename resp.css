@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1120px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar{
+        height: 500px;
+        transition: 0.4s ease-in-out;
+        flex-direction: column;
+    }
+    .navright{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger {
+        display: block;
+    }
+    .h-class-resp {
+        height: 70px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main {
+        max-width: 80%;
+        flex-direction: column-reverse;
+    }
+    .secoundHalf img {
+        width: 50%;
+    }
+    .section {
+        flex-direction: column-reverse;
+    }
+    .big-text{
+        text-align: center;
+    }
+    .small-text{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras {
+        padding: 0;
+    }
+}
